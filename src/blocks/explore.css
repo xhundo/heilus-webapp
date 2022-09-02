@@ -1,0 +1,50 @@
+.explore {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+}
+
+.explore__title {
+  font-family: "Clash Grotesk Variable";
+  font-size: 52px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 0 0 0 114px;
+  padding: 164px 0 0 0;
+}
+
+.explore__canvas {
+  border: 3px solid #fff;
+  border-radius: 30px;
+  margin: 66px 114px 44px 113px;
+}
+
+.explore__button {
+  font-family: "Clash Grotesk Variable";
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.2em;
+  text-align: left;
+  background-color: #fff;
+  border: none;
+  padding: 13px 49px 13px 49px;
+  border-radius: 30px;
+  margin: 0 113px 50px 1123px;
+}
+
+.explore__button:hover {
+  background-color: #000;
+  border: 2px solid #fff;
+  color: #fff;
+  transition: ease-in 1s;
+}
+
+.explore__span {
+  border-bottom: 2px solid #fff;
+  margin: 0 122px 0 105px;
+}
