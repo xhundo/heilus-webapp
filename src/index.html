@@ -42,18 +42,57 @@
       </article>
     </section>
     <section class="about" id="about">
-      <h3 class="about__title">Our mission</h3>
-      <article class="about__info">
-        LOREM IPSUM GENERATOR Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-        ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-        qui officia deserunt mollit anim id est laborum.
-      </article>
+      <h3 class="about__title">use case</h3>
+      <span class="about__span"></span>
+      <div class="about__helius">
+        <h3 class="about__title">Our mission</h3>
+        <article class="about__info">
+          LOREM IPSUM GENERATOR Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+          sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </article>
+      </div>
     </section>
-    <section class="team" id="ourteam"></section>
-    <footer class="footer"></footer>
+    <section class="team" id="ourteam">
+      <h4 class="team__title">Our team</h4>
+      <span class="team__span"></span>
+      <div class="team__card">
+        <div class="team__content">
+          <div class="team__work">
+            <img
+              class="team__image"
+              src="<%=require('./images/dataAnalyst.png')%>"
+              alt="image of helius team"
+            />
+            <p class="team__job">Data analyst</p>
+            <p class="team__name">Ani Petrichor</p>
+            <button class="team__button">about</button>
+          </div>
+        </div>
+        <div class="team__content">
+          <div class="team__work">
+            <img
+              class="team__image"
+              src="<%=require('./images/softwareEngineer.png')%>"
+              alt="image of helius team"
+            />
+            <p class="team__job">Software Engineer</p>
+            <p class="team__name">Kurtney Joseph</p>
+            <button class="team__button">about</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__title">
+        <p>address</p>
+        <p>contact</p>
+        <p>subsribe</p>
+      </div>
+    </footer>
   </body>
 </html>

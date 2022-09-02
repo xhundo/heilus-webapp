@@ -1,0 +1,92 @@
+.team {
+  background-color: #212121;
+  display: flex;
+  flex-direction: column;
+}
+
+.team__card {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 16px;
+}
+
+.team__title {
+  font-family: "Clash Grotesk Variable";
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 79px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0 0 0 77px;
+}
+
+.team__span {
+  border: 2px solid #fff;
+  margin: 38px 82px 63px 77px;
+}
+
+.team__content {
+  background-color: #fff;
+  border-radius: 30px;
+  width: 505px;
+}
+
+.team__job {
+  font-family: "Clash Grotesk Variable";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+  text-transform: uppercase;
+  margin: 23px 0 0 0;
+}
+
+.team__work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team__name {
+  font-family: "Clash Grotesk Variable";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #000;
+  margin: 8px 0 8px 0;
+}
+
+.team__button {
+  background-color: #000;
+  border-radius: 30px;
+  color: #fff;
+  font-family: "Clash Grotesk Variable";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 10px 70px 10px 70px;
+  margin-bottom: 22px;
+  border: none;
+}
+
+.team__image {
+  margin: 66px 0 0 0;
+}
+
+.team__button:hover {
+  transition: 1s ease-in;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+  cursor: pointer;
+}

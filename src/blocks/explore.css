@@ -42,6 +42,7 @@
   border: 2px solid #fff;
   color: #fff;
   transition: ease-in 1s;
+  cursor: pointer;
 }
 
 .explore__span {
