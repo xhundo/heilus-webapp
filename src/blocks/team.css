@@ -7,6 +7,7 @@
 .team__card {
   display: flex;
   justify-content: space-evenly;
+  padding: 0 100px;
   margin-bottom: 16px;
 }
 
@@ -31,6 +32,11 @@
   background-color: #fff;
   border-radius: 30px;
   width: 505px;
+  margin: 0 50px 0 0;
+}
+
+.team__content:nth-of-type(2n) {
+  margin: 0;
 }
 
 .team__job {

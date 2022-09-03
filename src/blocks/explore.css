@@ -2,6 +2,7 @@
   background-color: #000;
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
 }
 
 .explore__title {
@@ -20,6 +21,12 @@
   border: 3px solid #fff;
   border-radius: 30px;
   margin: 66px 114px 44px 113px;
+  background-color: #d9d9d9;
+  padding: 15px 18px;
+}
+
+.explore__image {
+  width: 100%;
 }
 
 .explore__button {
@@ -34,12 +41,13 @@
   border: none;
   padding: 13px 49px 13px 49px;
   border-radius: 30px;
-  margin: 0 113px 50px 1123px;
+  margin: 0 113px 50px 0;
+  width: 204px;
 }
 
 .explore__button:hover {
   background-color: #000;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   color: #fff;
   transition: ease-in 1s;
   cursor: pointer;
@@ -48,4 +56,19 @@
 .explore__span {
   border-bottom: 2px solid #fff;
   margin: 0 122px 0 105px;
+}
+
+.explore__info {
+  font-family: "Clash Grotesk Variable";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.17em;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 16px 114px 16px 114px;
+}
+
+.explore__content {
 }

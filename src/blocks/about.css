@@ -19,7 +19,7 @@
 
 .about__span {
   border-left: 2px solid #fff;
-  margin: 60px 0 90px 0;
+  margin: 60px 0 90px 67px;
 }
 
 .about__info {
@@ -40,4 +40,8 @@
 
 .about__title:nth-last-child(2n) {
   margin-left: 0;
+}
+
+.about__usecase {
+  margin-left: 85px;
 }

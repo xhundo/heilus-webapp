@@ -23,37 +23,62 @@
       </nav>
     </header>
     <main class="explore" id="explore">
-      <h1 class="explore__title">Explore</h1>
-      <canvas class="explore__canvas"></canvas>
+      <div class="explore__content">
+        <h1 class="explore__title">Explore</h1>
+        <article class="explore__info">
+          Solar Farm Density by Coordinates<br>
+          The graph below shows us the density of solar farms geographically based on longitude & latitude. 
+          Interestingly, by using this approach the data formed into a pseudo-world map, offering a clear vision of global solar. 
+          We can see here that solar is most highly concentrated in Asia, Europe, and the Western United States. 
+          Developing nations, many which would serve as great locations for solar energy production, are underutilized. With effective 
+  i       nvestments into the necessary infrastructure solar farms could help these underserved communities immensely.
+        </article>
+      </div>
+        <div class="explore__canvas">
+        <img class="explore__image" src="<%=require('./images/exploreimage.png')%>" alt="A density hexbin of solar regions"/>
+      </div>
       <button class="explore__button">Explore</button>
       <span class="explore__span"></span>
     </main>
     <section class="region" id="regions">
       <h2 class="region__title">Regions</h2>
-      <p class="region__title-info">LOREM IPSUM GENERATOR</p>
       <article class="region__info">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+          Solar Farm Development Over Time<br>
+          Here we can see the promising future of global solar farms. 
+          Solar farms reaching operation had a sharp growth period between 2013 and 2017.
+          The following several years showed more solar farms reaching operational status, but did represent a drop in quantity. 
+          Beginning in 2020 however we see a huge spike in solar farms in development, peaking in 2022. 
+          As our data looks to the future we see even more solar farms announced and in development, 
+          showing that solar is a massive growth industry that can be expected to produce a significant return on investment. 
+      </article>
+      <img class="region__image" src="<%=require('./images/regiondev.png')%>" alt="solar farm areas by region"/>
+      <img class="region__image-development" src="<%=require('./images/regioncountry.png')%>" alt="A megawatt out of prime areas for solar farms"/>
+      <article class="region__mw">
+        The story told by this graph is illuminating given the context of the previous three graphs.
+        Here we can truly see prime areas for solar farms based on their MegaWatt outputs. 
+        North American and China have the same MW output despite the Asia region having double the solar farms. 
+        Even with the high output of India we can see that North America produces more energy per solar farm than China. 
+        Additionally, despite the small number of solar farms the Oceania region contains, Australia’s MW output rivals that of India. 
+        This data can help us identify both areas that are prime for solar farm investment and will produce the greatest return on that investment. 
+      </article>
+      <img class="region__image-solar" src="<%=require('./images/regionsolarfarms.png')%>" alt="A density hexbin of solar regions"/>
+      <article class="region__solar-info">
+        Solar Farms by Region<br>
+        This bar chart tells an explicit story into which nations have best invested in solar energy. 
+        Leading the pack at nearly 4000 total solar farms is Asia. 
+        Following behind by a wide margin is North America, Europe, and South America. 
+        Developing nations in Africa, Central America and the Caribbean lag behind dramatically, and represent huge potential growth markets for solar farm investment. 
+        The Middle East also presents a potential market. 
+        Low solar power investment is to be expected given the area’s reliance on fossil fuels, but given the climate of the area is a prime location for solar farms. 
       </article>
     </section>
     <section class="about" id="about">
-      <h3 class="about__title">use case</h3>
       <span class="about__span"></span>
       <div class="about__helius">
         <h3 class="about__title">Our mission</h3>
         <article class="about__info">
-          LOREM IPSUM GENERATOR Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-          sunt in culpa qui officia deserunt mollit anim id est laborum.
+          At Helius we use big data to showcase areas prime for solar farm infrastructure by identifying underutilized regions.<br>
+          Our goal is to assist developing nations in the adoption of solar technologies by matching solar companies with regions rich in land for solar production. 
         </article>
       </div>
     </section>
@@ -88,11 +113,46 @@
       </div>
     </section>
     <footer class="footer">
-      <div class="footer__title">
-        <p>address</p>
-        <p>contact</p>
-        <p>subsribe</p>
-      </div>
+      <img class="footer__logo2" src="<%=require('./images/footerlogo.svg')%>"/>
+      <div class="footer__content">
+        <p class="footer__title">Address</p>
+        <address class="footer__address">
+            1274 SCIENCE CENTER DRIVE <br>BOISE, IDAHO</br>
+          </address>
+          <img class="footer__logo" src="<%=require('./images/footerlogo.svg')%>"/>
+    </div>
+    <div class="footer__contact">
+        <p class="footer__title">Contact</p>
+        <p class="footer__email">info@heilus.co</p>
+    </div>
+    <div class="footer__subscribe">
+        <p class="footer__subscribe-title">Subscribe</p>
+        <div class="footer__subcribe-content">
+            <input class="footer__input" type="email" placeholder="EMAIL"/>
+            <button class="footer__button">ok</button>
+        </div>
+        <div class="footer__subscribe-nav">
+            <a class="footer__nav" href="#about">about</a>
+            <span class="footer__span"></span>
+            <a class="footer__nav" href="#ourteam">our team</a>
+            <span class="footer__span"></span>
+            <a class="footer__nav" href="#explore">learn more</a>
+        </div>
+    </div>
     </footer>
+    <div class="popup">
+        <div class="popup__content">
+            <img class="popup__image" src="<%=require('./images/softwareEngineer.png')%>"/>
+            <div class="popup__user-content">
+                <h4 class="popup__title">User</h4>
+                <p class="popup__user-job">Software Engineer</p>
+                <p class="popup__info">Practicum student</p>
+                <p class="popup__text">LOREM IPSUM GENERATOR<br>
+                    Lorem ipsum that <br>displays helius team infomation.</br>
+                </p>
+                <button class="popup__button">Ok</button>
+            </div>
+        </div> 
+    </div>
   </body>
 </html>

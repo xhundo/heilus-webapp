@@ -33,3 +33,17 @@ a:hover {
   color: gray;
   transition: ease-in 1s;
 }
+
+@media screen and (max-width: 1000px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header__logo {
+    margin: 57px auto;
+  }
+
+  .header__nav {
+    width: 100%;
+  }
+}

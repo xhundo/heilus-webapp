@@ -1,0 +1,105 @@
+.popup {
+  position: fixed;
+  display: flex;
+  visibility: hidden;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.popup__content {
+  display: flex;
+  align-items: flex-start;
+
+  border: 2px solid #fff;
+  background-color: #000;
+  border-radius: 30px;
+}
+
+.popup__title {
+  font-family: "Clash Grotesk Variable";
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 134px 0 3px 0;
+}
+
+.popup__image {
+  border: 50px;
+  margin: 134px 52px 0 90px;
+}
+.popup__user-job {
+  font-family: "Clash Grotesk Variable";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.popup__info {
+  font-family: "Clash Grotesk Variable";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.popup__text {
+  font-family: "Clash Grotesk Variable";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.17em;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 28px 192px 25px 0;
+}
+
+.popup__button {
+  font-family: "Clash Grotesk Variable";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+  border-radius: 30px;
+  border: none;
+  background-color: #fff;
+  padding: 10px 89px 10px 89px;
+  text-transform: uppercase;
+  height: 100%;
+  margin: 0 80px 56px 401px;
+  width: 204px;
+}
+
+.popup__user-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.popup__button:hover {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: ease-in 1s;
+}
