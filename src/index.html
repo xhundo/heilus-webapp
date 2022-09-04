@@ -95,7 +95,7 @@
             />
             <p class="team__job">Data analyst</p>
             <p class="team__name">Ani Petrichor</p>
-            <button class="team__button">about</button>
+            <button class="team__button" id="button1">about</button>
           </div>
         </div>
         <div class="team__content">
@@ -107,7 +107,7 @@
             />
             <p class="team__job">Software Engineer</p>
             <p class="team__name">Kurtney Joseph</p>
-            <button class="team__button">about</button>
+            <button class="team__button" id="button2">about</button>
           </div>
         </div>
       </div>
@@ -140,15 +140,14 @@
         </div>
     </div>
     </footer>
-    <div class="popup">
+    <div class="popup" id="popup">
         <div class="popup__content">
             <img class="popup__image" src="<%=require('./images/softwareEngineer.png')%>"/>
             <div class="popup__user-content">
-                <h4 class="popup__title">User</h4>
-                <p class="popup__user-job">Software Engineer</p>
+                <h4 class="popup__title" id="name"></h4>
+                <p class="popup__user-job" id="job"></p>
                 <p class="popup__info">Practicum student</p>
-                <p class="popup__text">LOREM IPSUM GENERATOR<br>
-                    Lorem ipsum that <br>displays helius team infomation.</br>
+                <p class="popup__text" id="about"><br>
                 </p>
                 <button class="popup__button">Ok</button>
             </div>
