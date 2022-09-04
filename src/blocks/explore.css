@@ -72,3 +72,40 @@
 
 .explore__content {
 }
+
+@media screen and (max-width: 760px) {
+  .explore__info {
+    margin: 20px 30px;
+  }
+
+  .explore__button {
+    margin-right: 30px;
+  }
+
+  .explore__title {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .explore__title {
+    margin-left: 20px;
+    padding-top: 30px;
+  }
+
+  .explore__info {
+    font-size: 16px;
+    margin: 20px;
+  }
+
+  .explore__canvas {
+    margin: 20px 10px;
+  }
+
+  .explore__button {
+    margin-right: 20px;
+    width: 100px;
+    padding: 10px;
+    font-size: 16px;
+  }
+}

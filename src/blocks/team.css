@@ -96,3 +96,36 @@
   border: 1px solid #000;
   cursor: pointer;
 }
+
+@media screen and (max-width: 760px) {
+  .team__content {
+    margin: 0 10px 15px;
+    width: 400px;
+  }
+
+  .team__card {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  .team__card {
+    flex-direction: column;
+    padding: 10px 0 0 0;
+    align-items: center;
+  }
+
+  .team__title {
+    margin-left: 50px;
+  }
+
+  .team__content {
+    margin: 0 10px 15px;
+    width: 300px;
+  }
+
+  .team__span {
+    margin: 30px 10px;
+  }
+}

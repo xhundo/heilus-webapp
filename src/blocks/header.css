@@ -47,3 +47,27 @@ a:hover {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 510px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header__logo {
+    width: 200px;
+  }
+
+  .header__logo {
+    margin: 57px auto;
+  }
+
+  .header__nav {
+    width: 100%;
+  }
+
+  .header__nav-links {
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 30px 0;
+  }
+}

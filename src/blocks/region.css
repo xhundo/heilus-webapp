@@ -75,3 +75,46 @@
   text-transform: uppercase;
   margin: 0 67px 60px 49px;
 }
+
+@media screen and (max-width: 760px) {
+  .region__info {
+    margin: 20px 30px;
+  }
+
+  .region__title {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .region__title {
+    margin-left: 20px;
+  }
+
+  .region__info {
+    font-size: 16px;
+    margin: 20px 20px 20px 20px;
+  }
+
+  .region__mw {
+    font-size: 16px;
+    margin: 10px 20px;
+  }
+
+  .region__solar-info {
+    font-size: 16px;
+    margin: 10px 20px;
+  }
+
+  .region__image-solar {
+    margin: 10px;
+  }
+
+  .region__image {
+    margin: 10px;
+  }
+
+  .region__image-development {
+    margin: 10px;
+  }
+}
