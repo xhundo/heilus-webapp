@@ -1,5 +1,7 @@
 import "../pages/index.css";
 import Popup from "../components/Popup.js";
+import svgMap from "svgmap";
+import "svgmap/dist/svgMap.min.css";
 
 const popup = new Popup({
   popupSelector: "#popup",
@@ -27,3 +29,10 @@ popup2.fillUserInfo(
 
 popup.setEventListeners();
 popup2.setEventListeners();
+
+new svgMap({
+  targetElementID: "svgMap",
+  data: {
+    color: "red",
+  },
+});

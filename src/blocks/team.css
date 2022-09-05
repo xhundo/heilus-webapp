@@ -12,7 +12,7 @@
 }
 
 .team__title {
-  font-family: "Clash Grotesk Variable";
+  font-family: "ClashGrotesk-Variable";
   font-size: 64px;
   font-weight: 400;
   line-height: 79px;
@@ -40,7 +40,7 @@
 }
 
 .team__job {
-  font-family: "Clash Grotesk Variable";
+  font-family: "ClashGrotesk-Variable";
   font-size: 24px;
   font-weight: 400;
   line-height: 30px;
@@ -58,7 +58,7 @@
 }
 
 .team__name {
-  font-family: "Clash Grotesk Variable";
+  font-family: "ClashGrotesk-Variable";
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
@@ -73,7 +73,7 @@
   background-color: #000;
   border-radius: 30px;
   color: #fff;
-  font-family: "Clash Grotesk Variable";
+  font-family: "ClashGrotesk-Variable";
   font-size: 20px;
   font-weight: 400;
   line-height: 25px;

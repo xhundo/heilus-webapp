@@ -5,7 +5,7 @@
 }
 
 .footer__title {
-  font-family: "Clash Grotesk Variable";
+  font-family: "ClashGrotesk-Variable";
   font-size: 24px;
   font-weight: 400;
   line-height: 30px;
@@ -28,7 +28,7 @@
 }
 
 .footer__address {
-  font-family: "Clash Grotesk Variable";
+  font-family: "ClashGrotesk-Variable";
   font-size: 20px;
   font-weight: 400;
   line-height: 25px;
@@ -51,7 +51,7 @@
 }
 
 .footer__email {
-  font-family: "Clash Grotesk Variable";
+  font-family: "ClashGrotesk-Variable";
   font-size: 20px;
   font-weight: 400;
   line-height: 25px;
@@ -68,7 +68,7 @@
 }
 
 .footer__nav {
-  font-family: "Clash Grotesk Variable";
+  font-family: "ClashGrotesk-Variable";
   font-size: 24px;
   font-weight: 400;
   line-height: 30px;
@@ -82,7 +82,7 @@
   display: flex;
   padding-top: 68px;
   flex-direction: column;
-  font-family: "Clash Grotesk Variable";
+  font-family: "ClashGrotesk-Variable";
   font-size: 24px;
   font-weight: 400;
   line-height: 30px;
@@ -115,7 +115,7 @@
 
 .footer__input::placeholder {
   color: #fff;
-  font-family: "Clash Grotesk Variable";
+  font-family: "ClashGrotesk-Variable";
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
@@ -124,7 +124,7 @@
 }
 
 .footer__button {
-  font-family: "Clash Grotesk Variable";
+  font-family: "ClashGrotesk-Variable";
   font-size: 20px;
   font-weight: 400;
   line-height: 25px;
