@@ -26,7 +26,6 @@
       <div class="explore__content">
         <h1 class="explore__title">Explore</h1>
         <article class="explore__info">
-          Solar Farm Density by Coordinates<br>
           The graph below shows us the density of solar farms geographically based on longitude & latitude. 
           Interestingly, by using this approach the data formed into a pseudo-world map, offering a clear vision of global solar. 
           We can see here that solar is most highly concentrated in Asia, Europe, and the Western United States. 
@@ -35,7 +34,8 @@
         </article>
       </div>
         <div class="explore__canvas">
-        <img class="explore__image" src="db27336f6a4511e4c244.png" alt="A density hexbin of solar regions"/>
+          <div id="svgMap" class="svgMap-map-image"></div>
+         <!-- <img class="explore__image" src="db27336f6a4511e4c244.png" alt="A density hexbin of solar regions"/> !-->
       </div>
       <div class="explore__btn">
         <button class="explore__button">Explore</button>
@@ -45,7 +45,6 @@
     <section class="region" id="regions">
       <h2 class="region__title">Regions</h2>
       <article class="region__info">
-          Solar Farm Development Over Time<br>
           Here we can see the promising future of global solar farms. 
           Solar farms reaching operation had a sharp growth period between 2013 and 2017.
           The following several years showed more solar farms reaching operational status, but did represent a drop in quantity. 
@@ -65,7 +64,6 @@
       </article>
       <img class="region__image-solar" src="b515994e3d3e44e4e483.png" alt="A density hexbin of solar regions"/>
       <article class="region__solar-info">
-        Solar Farms by Region<br>
         This bar chart tells an explicit story into which nations have best invested in solar energy. 
         Leading the pack at nearly 4000 total solar farms is Asia. 
         Following behind by a wide margin is North America, Europe, and South America. 
@@ -131,7 +129,7 @@
         <p class="footer__subscribe-title">Subscribe</p>
         <div class="footer__subcribe-content">
             <input class="footer__input" type="email" placeholder="EMAIL"/>
-            <button class="footer__button">ok</button>
+            <button type="submit" class="footer__button">ok</button>
         </div>
         <div class="footer__subscribe-nav">
             <a class="footer__nav" href="#about">about</a>
@@ -168,5 +166,8 @@
           </div>
       </div> 
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/StephanWagner/svgMap@v2.7.2/dist/svgMap.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/gh/StephanWagner/svgMap@v2.7.2/dist/svgMap.min.css" rel="stylesheet">
   </body>
 </html>
