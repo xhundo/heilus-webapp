@@ -34,7 +34,7 @@ new svgMap({
   targetElementID: "svgMap",
   data: {
     data: {
-      density: {
+      MW: {
         name: "GDP per capita",
         format: "{0} USD",
         thousandSeparator: ",",
@@ -48,9 +48,9 @@ new svgMap({
     },
     applyData: "density",
     values: {
-      AF: { density: 587, change: 4.73 },
-      AL: { density: 4583, change: 11.09 },
-      DZ: { density: 4293, change: 10.01 },
+      AF: { MW: 587, change: 4.73 },
+      AL: { MW: 4583, change: 11.09 },
+      DZ: { MW: 4293, change: 10.01 },
       // ...
     },
   },
