@@ -14,6 +14,22 @@
   transition: visibility 0s 0.6s, opacity 0.6s linear;
 }
 
+.popup2 {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0s 0.6s, opacity 0.6s linear;
+}
+
 .popup_open {
   display: flex;
   visibility: visible;
@@ -24,7 +40,18 @@
 .popup__content {
   display: flex;
   align-items: flex-start;
+  width: 100%;
+  border: 2px solid #fff;
+  background-color: #000;
+  border-radius: 30px;
+  margin: 0 50px;
+}
 
+.popup__content2 {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  margin: 0 50px;
   border: 2px solid #fff;
   background-color: #000;
   border-radius: 30px;
@@ -42,11 +69,41 @@
   margin: 134px 0 3px 0;
 }
 
+.popup__title2 {
+  font-family: "Clash Grotesk Variable";
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 134px 0 3px 0;
+}
+
 .popup__image {
+  border: 50px;
+  margin: 134px 52px 0 90px;
+  background-image: url("../images/dataAnalyst.png");
+}
+
+.popup__image2 {
   border: 50px;
   margin: 134px 52px 0 90px;
 }
 .popup__user-job {
+  font-family: "Clash Grotesk Variable";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.popup__user-job2 {
   font-family: "Clash Grotesk Variable";
   font-size: 32px;
   font-weight: 400;
@@ -70,7 +127,31 @@
   margin: 0;
 }
 
+.popup__info2 {
+  font-family: "Clash Grotesk Variable";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+}
+
 .popup__text {
+  font-family: "Clash Grotesk Variable";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.17em;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 28px 50px 25px 0;
+}
+
+.popup__text2 {
   font-family: "Clash Grotesk Variable";
   font-size: 20px;
   font-weight: 400;
@@ -96,11 +177,35 @@
   padding: 10px 89px 10px 89px;
   text-transform: uppercase;
   height: 100%;
-  margin: 0 80px 56px 401px;
+  margin: 0 80px 56px 208px;
+  width: 204px;
+}
+
+.popup__button2 {
+  font-family: "Clash Grotesk Variable";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+  border-radius: 30px;
+  border: none;
+  background-color: #fff;
+  padding: 10px 89px 10px 89px;
+  text-transform: uppercase;
+  height: 100%;
+  margin: 0 80px 56px 193px;
   width: 204px;
 }
 
 .popup__user-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.popup__user-content2 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -111,4 +216,96 @@
   color: #fff;
   border: 1px solid #fff;
   transition: ease-in 1s;
+}
+
+.popup__button2:hover {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: ease-in 1s;
+}
+
+@media screen and (max-width: 760px) {
+  .popup__content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .popup__title {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .popup__image {
+    margin: 30px 20px 0 20px;
+  }
+
+  .popup__user-content {
+    align-items: center;
+    padding: 0 5px 0 5px;
+  }
+
+  .popup__user-job {
+    text-align: center;
+  }
+
+  .popup__info {
+    text-align: center;
+  }
+
+  .popup__text {
+    margin: 15px 15px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .popup__button {
+    padding: 10px 48px 10px 20px;
+    margin: 0 20px 22px 20px;
+    width: 30px;
+  }
+
+  .popup__content2 {
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+  }
+
+  .popup__title2 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .popup__image2 {
+    margin: 30px 20px 0 20px;
+  }
+
+  .popup__user-content2 {
+    align-items: center;
+    padding: 0 20px 0 20px;
+  }
+
+  .popup__user-job2 {
+    text-align: center;
+  }
+
+  .popup__info2 {
+    text-align: center;
+  }
+
+  .popup__text2 {
+    margin: 15px 15px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .popup__button2 {
+    padding: 10px 48px 10px 20px;
+    margin: 0 20px 22px 20px;
+    width: 30px;
+  }
+
+  .popup__user-content2 {
+    padding: 0 5px 0 5px;
+  }
 }

@@ -1,9 +1,8 @@
 class Popup {
-  constructor({ popupSelector, button }) {
+  constructor({ popupSelector, button, buttonClose }) {
     this._popupElement = document.querySelector(`${popupSelector}`);
     this._buttonElement = document.querySelector(`${button}`);
-    this._button = document.querySelector(".popup__button");
-    this.popup = this.popup;
+    this._button = document.querySelector(`${buttonClose}`);
   }
 
   open() {
@@ -29,6 +28,15 @@ class Popup {
     this.job = document.querySelector("#job");
     this.job.textContent = job;
     this.about = document.querySelector(".popup__text");
+    this.about.textContent = about;
+  }
+
+  fillUserInfo(name, job, about) {
+    this.name = document.querySelector("#name2");
+    this.name.textContent = name;
+    this.job = document.querySelector("#job2");
+    this.job.textContent = job;
+    this.about = document.querySelector(".popup__text2");
     this.about.textContent = about;
   }
 }

@@ -37,7 +37,9 @@
         <div class="explore__canvas">
         <img class="explore__image" src="<%=require('./images/exploreimage.png')%>" alt="A density hexbin of solar regions"/>
       </div>
-      <button class="explore__button">Explore</button>
+      <div class="explore__btn">
+        <button class="explore__button">Explore</button>
+      </div>
       <span class="explore__span"></span>
     </main>
     <section class="region" id="regions">
@@ -142,7 +144,7 @@
     </footer>
     <div class="popup" id="popup">
         <div class="popup__content">
-            <img class="popup__image" src="<%=require('./images/softwareEngineer.png')%>"/>
+            <img class="popup__image" src="<%=require('./images/dataAnalyst.png')%>"/>
             <div class="popup__user-content">
                 <h4 class="popup__title" id="name"></h4>
                 <p class="popup__user-job" id="job"></p>
@@ -153,5 +155,18 @@
             </div>
         </div> 
     </div>
+    <div class="popup2" id="popup2">
+      <div class="popup__content2">
+          <img class="popup__image2" src="<%=require('./images/softwareEngineer.png')%>"/>
+          <div class="popup__user-content2">
+              <h4 class="popup__title2" id="name2"></h4>
+              <p class="popup__user-job2" id="job2"></p>
+              <p class="popup__info2">Practicum student</p>
+              <p class="popup__text2" id="about2"><br>
+              </p>
+              <button class="popup__button2" id="button3">Ok</button>
+          </div>
+      </div> 
+  </div>
   </body>
 </html>
