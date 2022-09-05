@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Helius</title>
+  <script defer src="main.js"></script><link href="main.css" rel="stylesheet"></head>
+  <body class="page">
+    <header class="header">
+      <img
+        class="header__logo"
+        src="b06a5f5ff8a31c005b1d.svg"
+        alt="Helius logo"
+      />
+      <nav class="header__nav">
+        <div class="header__nav-links">
+          <a href="#about">About</a>
+          <a href="#ourteam">Our team</a>
+          <a href="#explore">Explore</a>
+          <a href="#regions">Regions</a>
+        </div>
+      </nav>
+    </header>
+    <main class="explore" id="explore">
+      <div class="explore__content">
+        <h1 class="explore__title">Explore</h1>
+        <article class="explore__info">
+          Solar Farm Density by Coordinates<br>
+          The graph below shows us the density of solar farms geographically based on longitude & latitude. 
+          Interestingly, by using this approach the data formed into a pseudo-world map, offering a clear vision of global solar. 
+          We can see here that solar is most highly concentrated in Asia, Europe, and the Western United States. 
+          Developing nations, many which would serve as great locations for solar energy production, are underutilized. With effective 
+          investments into the necessary infrastructure solar farms could help these underserved communities immensely.
+        </article>
+      </div>
+        <div class="explore__canvas">
+        <img class="explore__image" src="db27336f6a4511e4c244.png" alt="A density hexbin of solar regions"/>
+      </div>
+      <div class="explore__btn">
+        <button class="explore__button">Explore</button>
+      </div>
+      <span class="explore__span"></span>
+    </main>
+    <section class="region" id="regions">
+      <h2 class="region__title">Regions</h2>
+      <article class="region__info">
+          Solar Farm Development Over Time<br>
+          Here we can see the promising future of global solar farms. 
+          Solar farms reaching operation had a sharp growth period between 2013 and 2017.
+          The following several years showed more solar farms reaching operational status, but did represent a drop in quantity. 
+          Beginning in 2020 however we see a huge spike in solar farms in development, peaking in 2022. 
+          As our data looks to the future we see even more solar farms announced and in development, 
+          showing that solar is a massive growth industry that can be expected to produce a significant return on investment. 
+      </article>
+      <img class="region__image" src="e3b2df880bc899d41e07.png" alt="solar farm areas by region"/>
+      <img class="region__image-development" src="c4a7affc277c21d29223.png" alt="A megawatt out of prime areas for solar farms"/>
+      <article class="region__mw">
+        The story told by this graph is illuminating given the context of the previous three graphs.
+        Here we can truly see prime areas for solar farms based on their MegaWatt outputs. 
+        North American and China have the same MW output despite the Asia region having double the solar farms. 
+        Even with the high output of India we can see that North America produces more energy per solar farm than China. 
+        Additionally, despite the small number of solar farms the Oceania region contains, Australia’s MW output rivals that of India. 
+        This data can help us identify both areas that are prime for solar farm investment and will produce the greatest return on that investment. 
+      </article>
+      <img class="region__image-solar" src="b515994e3d3e44e4e483.png" alt="A density hexbin of solar regions"/>
+      <article class="region__solar-info">
+        Solar Farms by Region<br>
+        This bar chart tells an explicit story into which nations have best invested in solar energy. 
+        Leading the pack at nearly 4000 total solar farms is Asia. 
+        Following behind by a wide margin is North America, Europe, and South America. 
+        Developing nations in Africa, Central America and the Caribbean lag behind dramatically, and represent huge potential growth markets for solar farm investment. 
+        The Middle East also presents a potential market. 
+        Low solar power investment is to be expected given the area’s reliance on fossil fuels, but given the climate of the area is a prime location for solar farms. 
+      </article>
+    </section>
+    <section class="about" id="about">
+      <span class="about__span"></span>
+      <div class="about__helius">
+        <h3 class="about__title">Our mission</h3>
+        <article class="about__info">
+          At Helius we use big data to showcase areas prime for solar farm infrastructure by identifying underutilized regions.<br>
+          Our goal is to assist developing nations in the adoption of solar technologies by matching solar companies with regions rich in land for solar production. 
+        </article>
+      </div>
+    </section>
+    <section class="team" id="ourteam">
+      <h4 class="team__title">Our team</h4>
+      <span class="team__span"></span>
+      <div class="team__card">
+        <div class="team__content">
+          <div class="team__work">
+            <img
+              class="team__image"
+              src="81587f29b922552ab850.png"
+              alt="image of helius team"
+            />
+            <p class="team__job">Data analyst</p>
+            <p class="team__name">Ani Petrichor</p>
+            <button class="team__button" id="button1">about</button>
+          </div>
+        </div>
+        <div class="team__content">
+          <div class="team__work">
+            <img
+              class="team__image"
+              src="c726ad0febcb537626c1.png"
+              alt="image of helius team"
+            />
+            <p class="team__job">Software Engineer</p>
+            <p class="team__name">Kurtney Joseph</p>
+            <button class="team__button" id="button2">about</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <img class="footer__logo2" src="5a6e782d220eddda6163.svg"/>
+      <div class="footer__content">
+        <p class="footer__title">Address</p>
+        <address class="footer__address">
+            1274 SCIENCE CENTER DRIVE <br>BOISE, IDAHO</br>
+          </address>
+          <img class="footer__logo" src="5a6e782d220eddda6163.svg"/>
+    </div>
+    <div class="footer__contact">
+        <p class="footer__title">Contact</p>
+        <p class="footer__email">info@heilus.co</p>
+    </div>
+    <div class="footer__subscribe">
+        <p class="footer__subscribe-title">Subscribe</p>
+        <div class="footer__subcribe-content">
+            <input class="footer__input" type="email" placeholder="EMAIL"/>
+            <button class="footer__button">ok</button>
+        </div>
+        <div class="footer__subscribe-nav">
+            <a class="footer__nav" href="#about">about</a>
+            <span class="footer__span"></span>
+            <a class="footer__nav" href="#ourteam">our team</a>
+            <span class="footer__span"></span>
+            <a class="footer__nav" href="#explore">learn more</a>
+        </div>
+    </div>
+    </footer>
+    <div class="popup" id="popup">
+        <div class="popup__content">
+            <img class="popup__image" src="81587f29b922552ab850.png"/>
+            <div class="popup__user-content">
+                <h4 class="popup__title" id="name"></h4>
+                <p class="popup__user-job" id="job"></p>
+                <p class="popup__info">Practicum student</p>
+                <p class="popup__text" id="about"><br>
+                </p>
+                <button class="popup__button">Ok</button>
+            </div>
+        </div> 
+    </div>
+    <div class="popup2" id="popup2">
+      <div class="popup__content2">
+          <img class="popup__image2" src="c726ad0febcb537626c1.png"/>
+          <div class="popup__user-content2">
+              <h4 class="popup__title2" id="name2"></h4>
+              <p class="popup__user-job2" id="job2"></p>
+              <p class="popup__info2">Practicum student</p>
+              <p class="popup__text2" id="about2"><br>
+              </p>
+              <button class="popup__button2" id="button3">Ok</button>
+          </div>
+      </div> 
+  </div>
+  </body>
+</html>
