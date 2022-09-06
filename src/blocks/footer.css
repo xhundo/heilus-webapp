@@ -154,6 +154,38 @@
   display: none;
 }
 
+.footer__input_type_error {
+  border: 2px solid red;
+  border-radius: 30px;
+  background: transparent;
+  padding: 9px 0 8px 20px;
+  font-size: 15px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.footer__span-error {
+  color: red;
+  font-family: "ClashGrotesk-Variable";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 10px 10px;
+}
+
+.footer__span-success_active {
+  color: greenyellow;
+  font-family: "ClashGrotesk-Variable";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 10px 10px;
+}
+
 @media screen and (max-width: 950px) {
   .footer__input {
     width: 100px;

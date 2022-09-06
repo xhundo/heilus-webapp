@@ -3,6 +3,7 @@ import Popup from "../components/Popup.js";
 import PopupVid from "../components/PopupVid.js";
 import svgMap from "svgmap";
 import "svgmap/dist/svgMap.min.css";
+import validation from "../components/Validation";
 
 window.scroll({
   top: 100,
