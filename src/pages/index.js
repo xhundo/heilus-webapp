@@ -1,7 +1,25 @@
 import "../pages/index.css";
 import Popup from "../components/Popup.js";
+import PopupVid from "../components/PopupVid.js";
 import svgMap from "svgmap";
 import "svgmap/dist/svgMap.min.css";
+
+window.scroll({
+  top: 100,
+  left: 100,
+  behavior: "smooth",
+});
+
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior: "smooth",
+    });
+  });
+});
+
+const popupVid = new PopupVid({ selector: ".popup__vid" });
 
 const popup = new Popup({
   popupSelector: "#popup",
@@ -27,6 +45,7 @@ popup2.fillUserInfo(
   "Kurtney Joseph is an Orlando based software engineer who aims to provide companies and local businesses with effective solutions though web development."
 );
 
+popupVid.setEventListeners();
 popup.setEventListeners();
 popup2.setEventListeners();
 

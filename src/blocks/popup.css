@@ -225,6 +225,29 @@
   transition: ease-in 1s;
 }
 
+.popup__vid {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0s 0.6s, opacity 0.6s linear;
+}
+
+.popup__vid_open {
+  display: flex;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.6s linear;
+}
+
 @media screen and (max-width: 760px) {
   .popup__content {
     flex-direction: column;

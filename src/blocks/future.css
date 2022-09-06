@@ -1,10 +1,10 @@
-.region {
+.future {
   background-color: #000;
   display: flex;
   flex-direction: column;
 }
 
-.region__title {
+.future__title {
   font-family: "ClashGrotesk-Variable";
   font-size: 32px;
   font-weight: 600;
@@ -16,7 +16,12 @@
   margin: 50px 0 0 105px;
 }
 
-.region__info {
+.future__span {
+  border-bottom: 2px solid #fff;
+  margin: 30px 122px 0 105px;
+}
+
+.future__info {
   font-family: "ClashGrotesk-Variable";
   font-size: 20px;
   font-weight: 400;
@@ -28,7 +33,7 @@
   margin: 20px 215px 56px 105px;
 }
 
-.region__title-info {
+.future__title-info {
   font-family: "ClashGrotesk-Variable";
   font-size: 20px;
   font-weight: 400;
@@ -40,15 +45,15 @@
   margin: 0 0 0 105px;
 }
 
-.region__image {
+.future__image {
   margin: 0 67px 0 49px;
 }
 
-.region__image-solar {
+.future__image-solar {
   margin: 55px 67px 0 49px;
 }
 
-.region__solar-info {
+.future__solar-info {
   font-family: "ClashGrotesk-Variable";
   font-size: 20px;
   font-weight: 400;
@@ -57,39 +62,47 @@
   text-align: left;
   color: #fff;
   text-transform: uppercase;
-  margin: 0 67px 60px 49px;
+  margin: 50px 67px 60px 49px;
 }
 
 @media screen and (max-width: 760px) {
-  .region__info {
+  .future__info {
     margin: 20px 30px;
   }
 
-  .region__title {
+  .future__title {
     margin-left: 30px;
+  }
+
+  .future__span {
+    margin: 30px;
   }
 }
 
 @media screen and (max-width: 510px) {
-  .region__title {
+  .future__title {
     margin-left: 20px;
   }
 
-  .region__info {
+  .future__info {
     font-size: 16px;
     margin: 20px 20px 20px 20px;
   }
 
-  .region__solar-info {
+  .future__solar-info {
     font-size: 16px;
     margin: 10px 20px;
   }
 
-  .region__image-solar {
+  .future__image-solar {
     margin: 10px;
   }
 
-  .region__image {
+  .future__span {
+    margin: 10px;
+  }
+
+  .future__image {
     margin: 10px;
   }
 }
