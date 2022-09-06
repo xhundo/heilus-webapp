@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Helius</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
   </head>
   <body class="page">
     <header class="header">
@@ -26,16 +27,14 @@
       <div class="explore__content">
         <h1 class="explore__title">Explore</h1>
         <article class="explore__info">
-          The graph below shows us the density of solar farms geographically based on longitude & latitude. 
-          Interestingly, by using this approach the data formed into a pseudo-world map, offering a clear vision of global solar. 
-          We can see here that solar is most highly concentrated in Asia, Europe, and the Western United States. 
-          Developing nations, many which would serve as great locations for solar energy production, are underutilized. With effective 
-          investments into the necessary infrastructure solar farms could help these underserved communities immensely.
+          The map below shows both the total MW output of each country and its total number of solar farms, giving us a clear vision of global solar.
+          We can see here that solar is most highly concentrated in Asia, Europe, and the United States. 
+          Developing nations, many which would serve as great locations for solar energy production, are underutilized. 
+          With effective investments into the necessary infrastructure solar farms could help these underserved communities immensely.
         </article>
       </div>
         <div class="explore__canvas">
           <div id="svgMap" class="svgMap-map-image"></div>
-         <!-- <img class="explore__image" src="<%=require('./images/exploreimage.png')%>" alt="A density hexbin of solar regions"/> !-->
       </div>
       <div class="explore__btn">
         <button class="explore__button">Explore</button>
