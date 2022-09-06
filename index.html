@@ -17,7 +17,7 @@
       />
       <nav class="header__nav">
         <div class="header__nav-links">
-          <a  onclick="scroll(0, 100)" href="#about">About</a>
+          <a href="#about">About</a>
           <a href="#ourteam">Our team</a>
           <a href="#explore">Explore</a>
           <a href="#future">future</a>
@@ -128,9 +128,11 @@
     <div class="footer__subscribe">
         <p class="footer__subscribe-title">Subscribe</p>
         <div class="footer__subcribe-content">
-            <input class="footer__input" type="email" placeholder="EMAIL"/>
+            <input id="footer__span" class="footer__input" type="email" placeholder="EMAIL" required/>
             <button type="submit" class="footer__button">ok</button>
         </div>
+        <span class="footer__span-error"></span>
+        <span class="footer__span-success"></span>
         <div class="footer__subscribe-nav">
             <a class="footer__nav" href="#about">about</a>
             <span class="footer__span"></span>
@@ -168,10 +170,9 @@
   </div>
   <div class="popup__vid" id="popupw-vid">
     <div class="popup__vid-content">
-      <iframe id="ytplayer" type="text/html" width="720" height="405"
-      src="https://www.youtube.com/embed/7epSZOmY6CI?autoplay=1&controls=0&loop=1&start=2"
+      <iframe id="ytplayer" type="text/html" width="480" height="270"
+      src="https://www.youtube.com/embed/7epSZOmY6CI?autoplay=1&controls=0&disablekb=1&loop=1&start=2"
       frameborder="0" allowfullscreen>
-    </div> 
   </div>
   <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/StephanWagner/svgMap@v2.7.2/dist/svgMap.min.js"></script>
