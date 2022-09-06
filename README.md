@@ -1,6 +1,4 @@
-# heilus-webapp
 
-### Project technologies used
 
 # HELIUS Code Bridge
 
