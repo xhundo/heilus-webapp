@@ -17,10 +17,10 @@
       />
       <nav class="header__nav">
         <div class="header__nav-links">
-          <a href="#about">About</a>
+          <a  onclick="scroll(0, 100)" href="#about">About</a>
           <a href="#ourteam">Our team</a>
           <a href="#explore">Explore</a>
-          <a href="#regions">Regions</a>
+          <a href="#future">future</a>
         </div>
       </nav>
     </header>
@@ -38,22 +38,21 @@
           <div id="svgMap" class="svgMap-map-image"></div>
       </div>
       <article class="explore__mw">
-        The story told by this graph is illuminating given the context of the previous three graphs.
-        Here we can truly see prime areas for solar farms based on their MegaWatt outputs. 
+        Here we can truly see prime areas for solar farms based on their MegaWatt outputs more clearly than in the above interactive map. 
         North American and China have the same MW output despite the Asia region having double the solar farms. 
         Even with the high output of India we can see that North America produces more energy per solar farm than China. 
         Additionally, despite the small number of solar farms the Oceania region contains, Australia’s MW output rivals that of India. 
-        This data can help us identify both areas that are prime for solar farm investment and will produce the greatest return on that investment. 
+        This data can help us identify both areas that are prime for solar farm investment and will produce the greatest return on that investment.
       </article>
       <img class="explore__image-development" src="c4a7affc277c21d29223.png" alt="A megawatt out of prime areas for solar farms"/>
       <div class="explore__btn">
-        <button class="explore__button">Explore</button>
+        <button class="explore__button" id="explorebtn">Explore</button>
       </div>
       <span class="explore__span"></span>
     </main>
-    <section class="region" id="regions">
-      <h2 class="region__title">Regions</h2>
-      <article class="region__info">
+    <section class="future" id="future">
+      <h2 class="future__title">future</h2>
+      <article class="future__info">
           Here we can see the promising future of global solar farms. 
           Solar farms reaching operation had a sharp growth period between 2013 and 2017.
           The following several years showed more solar farms reaching operational status, but did represent a drop in quantity. 
@@ -61,8 +60,9 @@
           As our data looks to the future we see even more solar farms announced and in development, 
           showing that solar is a massive growth industry that can be expected to produce a significant return on investment. 
       </article>
-      <img class="region__image" src="e3b2df880bc899d41e07.png" alt="solar farm areas by region"/>
-      <article class="region__solar-info">
+      <img class="future__image" src="e3b2df880bc899d41e07.png" alt="solar farm areas by region"/>
+      <span class="future__span"></span>
+      <article class="future__solar-info">
         This bar chart tells an explicit story into which nations have best invested in solar energy. 
         Leading the pack at nearly 4000 total solar farms is Asia. 
         Following behind by a wide margin is North America, Europe, and South America. 
@@ -70,7 +70,7 @@
         The Middle East also presents a potential market. 
         Low solar power investment is to be expected given the area’s reliance on fossil fuels, but given the climate of the area is a prime location for solar farms. 
       </article>
-      <img class="region__image-solar" src="b515994e3d3e44e4e483.png" alt="A density hexbin of solar regions"/>
+      <img class="future__image-solar" src="b515994e3d3e44e4e483.png" alt="A density hexbin of solar regions"/>
     </section>
     <section class="about" id="about">
       <span class="about__span"></span>
@@ -165,6 +165,13 @@
               <button class="popup__button2" id="button3">Ok</button>
           </div>
       </div> 
+  </div>
+  <div class="popup__vid" id="popupw-vid">
+    <div class="popup__vid-content">
+      <iframe id="ytplayer" type="text/html" width="720" height="405"
+      src="https://www.youtube.com/embed/7epSZOmY6CI?autoplay=1&controls=0&loop=1&start=2"
+      frameborder="0" allowfullscreen>
+    </div> 
   </div>
   <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/StephanWagner/svgMap@v2.7.2/dist/svgMap.min.js"></script>
