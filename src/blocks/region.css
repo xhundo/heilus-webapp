@@ -44,24 +44,8 @@
   margin: 0 67px 0 49px;
 }
 
-.region__image-development {
-  margin: 55px 67px 0 49px;
-}
-
 .region__image-solar {
   margin: 55px 67px 0 49px;
-}
-
-.region__mw {
-  font-family: "ClashGrotesk-Variable";
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 25px;
-  letter-spacing: 0.17em;
-  text-align: left;
-  color: #fff;
-  text-transform: uppercase;
-  margin: 0 67px 0 49px;
 }
 
 .region__solar-info {
@@ -96,11 +80,6 @@
     margin: 20px 20px 20px 20px;
   }
 
-  .region__mw {
-    font-size: 16px;
-    margin: 10px 20px;
-  }
-
   .region__solar-info {
     font-size: 16px;
     margin: 10px 20px;
@@ -111,10 +90,6 @@
   }
 
   .region__image {
-    margin: 10px;
-  }
-
-  .region__image-development {
     margin: 10px;
   }
 }

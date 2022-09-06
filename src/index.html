@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Helius</title>
     <link rel="shortcut icon" href="./favicon.ico" />
+    <link href="https://cdn.jsdelivr.net/gh/StephanWagner/svgMap@v2.7.2/dist/svgMap.min.css" rel="stylesheet">
   </head>
   <body class="page">
     <header class="header">
@@ -36,6 +37,15 @@
         <div class="explore__canvas">
           <div id="svgMap" class="svgMap-map-image"></div>
       </div>
+      <article class="explore__mw">
+        The story told by this graph is illuminating given the context of the previous three graphs.
+        Here we can truly see prime areas for solar farms based on their MegaWatt outputs. 
+        North American and China have the same MW output despite the Asia region having double the solar farms. 
+        Even with the high output of India we can see that North America produces more energy per solar farm than China. 
+        Additionally, despite the small number of solar farms the Oceania region contains, Australia’s MW output rivals that of India. 
+        This data can help us identify both areas that are prime for solar farm investment and will produce the greatest return on that investment. 
+      </article>
+      <img class="explore__image-development" src="<%=require('./images/regioncountry.png')%>" alt="A megawatt out of prime areas for solar farms"/>
       <div class="explore__btn">
         <button class="explore__button">Explore</button>
       </div>
@@ -52,16 +62,6 @@
           showing that solar is a massive growth industry that can be expected to produce a significant return on investment. 
       </article>
       <img class="region__image" src="<%=require('./images/regiondev.png')%>" alt="solar farm areas by region"/>
-      <img class="region__image-development" src="<%=require('./images/regioncountry.png')%>" alt="A megawatt out of prime areas for solar farms"/>
-      <article class="region__mw">
-        The story told by this graph is illuminating given the context of the previous three graphs.
-        Here we can truly see prime areas for solar farms based on their MegaWatt outputs. 
-        North American and China have the same MW output despite the Asia region having double the solar farms. 
-        Even with the high output of India we can see that North America produces more energy per solar farm than China. 
-        Additionally, despite the small number of solar farms the Oceania region contains, Australia’s MW output rivals that of India. 
-        This data can help us identify both areas that are prime for solar farm investment and will produce the greatest return on that investment. 
-      </article>
-      <img class="region__image-solar" src="<%=require('./images/regionsolarfarms.png')%>" alt="A density hexbin of solar regions"/>
       <article class="region__solar-info">
         This bar chart tells an explicit story into which nations have best invested in solar energy. 
         Leading the pack at nearly 4000 total solar farms is Asia. 
@@ -70,6 +70,7 @@
         The Middle East also presents a potential market. 
         Low solar power investment is to be expected given the area’s reliance on fossil fuels, but given the climate of the area is a prime location for solar farms. 
       </article>
+      <img class="region__image-solar" src="<%=require('./images/regionsolarfarms.png')%>" alt="A density hexbin of solar regions"/>
     </section>
     <section class="about" id="about">
       <span class="about__span"></span>
@@ -167,6 +168,5 @@
   </div>
   <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/StephanWagner/svgMap@v2.7.2/dist/svgMap.min.js"></script>
-  <link href="https://cdn.jsdelivr.net/gh/StephanWagner/svgMap@v2.7.2/dist/svgMap.min.css" rel="stylesheet">
   </body>
 </html>
